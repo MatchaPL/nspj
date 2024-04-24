@@ -1,0 +1,365 @@
+ifconfig
+sudo vi /etc/network/interfaces
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo reboot 
+sudo vi /etc/network/interfaces
+sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+sudo sh -c "echo 'deb [arch=amd64,i386] https://mirrors.evowise.com/mariadb/repo/10.1/ubuntu '$(lsb_release -cs)' main' > /etc/apt/sources.list.d/MariaDB-10.1.list"
+sudo apt-get update
+sudo apt-get install mariadb-server mariadb-client -y
+mysql --version
+mysql -u root -p
+sudo apt-get install build-essential checkinstall
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+version=3.6.8
+mkdir ~/Downloads/
+cd ~/Downloads/
+wget https://www.python.org/ftp/python/$version/Python-$version.tgz
+tar -xvf Python-$version.tgz
+cd Python-$version
+./configure
+make
+sudo checkinstall
+cd ..
+ls
+rm -rf Python-3.6.8 Python-3.6.8.tgz 
+ls
+sudo -rm -rf Python-3.6.8/
+ls
+sudo rm -rf Python-3.6.8/
+ls
+cd ..
+ls
+python
+python3 -V
+mysql --version
+ssh-keygen -t ed25519 -C "email@example.com"
+ssh-keygen -t ed25519 -C "tewarathnk@gmail.com"
+cat .ssh/id_ed25519.pub 
+ls
+cd Downloads/
+ls
+cd ..
+git clone git@gitlab.com:beyond-tech/elderly-health-profile.git
+sudo pip3 install -r elderly-health-profile/requirements.txt 
+sudo apt-get install libmysqlclient-dev
+sudo pip3 install -r elderly-health-profile/requirements.txt 
+cd elderly-health-profile/ehp/static/
+ls
+yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt install yarn nodejs
+yarn
+sudo apt install yarn nodejs
+versionyarn 
+yarn -version
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+yarn -version
+yarn
+vi /etc/mysql/my.cnf 
+sudo vi /etc/mysql/my.cnf 
+sudo service mysql restart
+mysql -u root -p
+ls
+cd ..
+ls
+cat runserver.sh 
+vi manage.py 
+vi ehp/settings/prod.py 
+python manage.py runserver
+python3 manage.py runserver
+python manage.py migrate
+vi ~/.bashrc 
+source ~/.bashrc 
+python manage.py migrate
+vi /etc/mysql/my.cnf 
+sudo vi /etc/mysql/my.cnf 
+service mysql restart
+sudo service mysql restart
+python manage.py migrate
+ls
+./loaddata.sh 
+vi loaddata.sh 
+./loaddata.sh 
+vi runserver.sh 
+./runserver.sh 
+vi runserver.sh 
+./runserver.sh 
+vi manage.py 
+vi ehp/settings/prod.py 
+./runserver.sh 
+vi manage.py 
+vi ehp/settings/dev.py 
+./runserver.sh 
+reboot
+sudo reboot
+tmux
+tmux a
+tmux ls
+tmux a
+ls
+tmux a
+ls
+cd elderly-health-profile/
+ls
+git status 
+git diff
+git stash 
+git config --global user.name "Your Name"
+git config --global user.name "TewaratHNK"
+git stash 
+git status p
+git pull origin master 
+git stash pop 
+git status 
+git stash 
+git pull origin master 
+git stash pop 
+sudo su
+ls
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+cat dumpdata.sh 
+vi dumpdata.sh 
+cat loaddata.sh 
+vi dumpdata.sh 
+exit
+tmux ls
+tmux
+exit
+cat /etc/network/interfaces
+dns-nameservers 110.164.252.222 110.164.252.223
+cat /etc/network/interfaces
+ls
+sudo vi /etc/network/interfaces
+sudo service networking restart 
+ping bcnkk.ac.th
+ping 8.8.8.8
+sudo vi /etc/network/interfaces
+sudo service networking restart 
+ping bcnkk.ac.th
+exit
+cat /etc/network/interfaces
+dig
+dig bcnkk.ac.th
+dig booking.bcnkk.ac.th
+tmux ls
+tmux
+ls
+tmux a
+ifconfig 
+tmux ls
+tmux
+top
+tmux
+tmux -a
+tmux ls
+tmux a
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+./runserver.sh 
+sudo mysql -utewarat -phnkbcnkk -h 122.154.158.202
+tmux a
+tmux ls
+tmux a 1
+tmux a -t
+tmux a -t 1
+tmux attach-session
+tmux a
+sudo reboot
+tmux
+exit
+tmux a
+tmux
+tmux ls
+tmux 
+ls
+cd /var/www
+cd ehp
+ls
+cd elderly-health-profile/
+ls
+tmux ls
+tmux a
+ls
+cd ehp/
+git diff
+clear
+git status 
+vi report/views.py 
+vi dumpdata.sh 
+tail -f 2_data.json 
+vi report/views.py 
+ls
+clear
+ls -la
+cat list2json.py 
+clear
+ls -la
+vi core/models/section3.py 
+vi report/views.py 
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+cat runserver.sh 
+cd ehp/settings/
+ls
+cat dev.py 
+tmux ls
+tmux a
+exit
+tmux -a
+tmux a
+php -v
+ls
+service httpd status
+php -version
+sudo
+php -a
+cd /
+ls
+php -v
+cd opt
+ls
+cd /
+cd var
+ls
+cd opt
+ls
+cd /
+ls
+cd etc
+ls
+cd /
+ls
+sudo poweroff 
+cat runserver.sh 
+ls
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+cat runserver.sh 
+ls
+./runserver.sh 
+clear
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+./runserver.sh 
+ls
+cd fixtures/
+ls
+cd ../static/
+ls
+cd ..
+ls
+cat runserver.sh 
+cd core/
+ls
+cd ..
+ls
+cd ehp/
+ls
+cd settings/
+ls
+nano dev.py 
+cd ~
+cd elderly-health-profile/ehp/
+ls
+./runserver.sh 
+nano ehp/settings/dev.py 
+./runserver.sh 
+ls
+cd elderly-health-profile/
+ls
+cd ..
+ls la
+ls -la
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+./runserver.sh 
+poweroff
+cat elderly-health-profile/ehp/runserver.sh 
+screen
+sudo boot
+sudo reboot 
+cd elderly-health-profile/ehp/
+ls
+./runserver.sh 
+screen
+sudo nano /lib/systemd/system/myscript.service
+/usr/local/bin/python3 /home/bcnkk/elderly-health-profile/ehp/manage.py python runserver 0.0.0.0:8000
+cat elderly-health-profile/ehp/runserver.sh 
+python3
+which python3
+/usr/local/bin/python3 /home/bcnkk/elderly-health-profile/ehp/manage.py runserver 0:8000 --settings=ehp.settings.dev
+sudo nano /lib/systemd/system/myscript.service
+sudo chmod 644 /lib/systemd/system/myscript.service
+sudo systemctl daemon-reload
+systemctl enable myscript.service
+sudo systemctl status myscript.service
+sudo nano /lib/systemd/system/myscript.service
+sudo chmod 644 /lib/systemd/system/myscript.service
+sudo systemctl daemon-reload
+systemctl enable myscript.service
+sudo reboot
+sudo systemctl status myscript.service
+sudo poweroff 
+sudo -i
+sudo vi /etc/network/interfaces
+ls
+sudo systemctl status myscript.service
+sudo systemctl start myscript.service
+sudo systemctl stop myscript.service
+sudo systemctl status myscript.service
+clear
+cd elderly-health-profile/
+ls
+cd ehp/
+ls
+./runserver.sh 
+tail /var/run/mysqld/mysqld.sock
+./runserver.sh 
+cd ~
+history -w ~/history.txt
+vi history.txt 
+vi /etc/mysql/my.cnf
+sudo service mysql restart
+sudo service s restart
+sudo service mysql restart
+sudo service mysql starus
+sudo service mysql status
+cd elderly-health-profile/ehp/[A
+./runserver.sh 
+vi ehp/settings/dev.py 
+./runserver.sh 
+sudo systemctl start myscript.service
+sudo systemctl status myscript.service
+nginx -v
+sudo apt update
+sudo apt install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+systemctl status nginx
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout crc.key -out crc.crt
+sudo mv crc.crt /etc/ssl/cert
+sudo mv crc.key /etc/ssl/private
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout crc.key -out crc.crt
+mv crc.crt /etc/ssl/certs/
+sudo mv crc.crt /etc/ssl/certs/
+sudo mv crc.key /etc/ssl/private/
+sudo mv crc.crt /etc/ssl/certs/
+sudo nano /etc/nginx/sites-available/server_ssl
+sudo ln -s /etc/nginx/sites-available/server_ssl /etc/nginx/sites-enabled/
+sudo systemctl restart nginx
